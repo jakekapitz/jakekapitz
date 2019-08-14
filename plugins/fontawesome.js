@@ -16,7 +16,7 @@ import {
   faGithub
 } from '@fortawesome/free-brands-svg-icons'
 
-config.autoAddCss = false
+config.autoAddCss = true
 
 library.add(
   faPencilRuler,

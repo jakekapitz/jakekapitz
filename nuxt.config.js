@@ -33,9 +33,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    '@fortawesome/fontawesome-svg-core/styles.css'
-  ],
+  css: [],
   /*
    ** Plugins to load before mounting the App
    */
