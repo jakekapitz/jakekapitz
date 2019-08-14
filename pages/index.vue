@@ -26,8 +26,9 @@
           class="font-mono font-weight-bold text-3xl black-blue bg-clip-text text-fill-transparent text-center leading-relaxed align-middle mt-8 p-4"
         >
           Hi there. I'm a freelance front-end developer and management
-          consultant based in Melbourne, Australia.<br /><br />
-          Full site currently under construction!
+          consultant based in Melbourne, Australia.
+          <br />
+          <br />Full site currently under construction!
         </p>
       </div>
     </div>

@@ -33,7 +33,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -41,7 +43,8 @@ export default {
     {
       src: '~/plugins/vue-particles',
       mode: 'client'
-    }
+    },
+    '~/plugins/fontawesome'
   ],
   /*
    ** Nuxt.js dev-modules
@@ -57,30 +60,7 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    [
-      'nuxt-fontawesome',
-      {
-        component: 'fa',
-        imports: [
-          {
-            set: '@fortawesome/pro-light-svg-icons',
-            icons: [
-              'faPencilRuler',
-              'faLaptopCode',
-              'faTachometerFastest',
-              'faBars',
-              'faAt',
-              'faBrowser'
-            ]
-          },
-          {
-            set: '@fortawesome/free-brands-svg-icons',
-            icons: ['faFacebook', 'faLinkedin', 'faGithub']
-          }
-        ]
-      }
-    ]
+    '@nuxtjs/axios'
   ],
   /*
    ** Axios module configuration
