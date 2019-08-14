@@ -10,10 +10,10 @@
           <fa
             v-if="this.$store.state.displayMenu"
             key="1"
-            :icon="['fal', 'times']"
-            size="2x"
+            :icon="['fas', 'times']"
+            size="4x"
           />
-          <fa v-else key="2" :icon="['fal', 'bars']" size="2x" />
+          <fa v-else key="2" :icon="['fas', 'bars']" size="4x" />
         </no-ssr>
       </transition>
     </a>

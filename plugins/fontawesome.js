@@ -5,16 +5,15 @@ import {
   faPencilRuler,
   faLaptopCode,
   faTachometerFastest,
-  faBars,
   faAt,
-  faBrowser,
-  faTimes
+  faBrowser
 } from '@fortawesome/pro-light-svg-icons'
 import {
   faFacebook,
   faLinkedin,
   faGithub
 } from '@fortawesome/free-brands-svg-icons'
+import { faTimes, faBars } from '@fortawesome/pro-solid-svg-icons'
 
 config.autoAddCss = true
 
