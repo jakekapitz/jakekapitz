@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.yellow-green {
+  background: linear-gradient(135deg, rgb(253, 252, 71) 0%, rgb(36, 254, 65) 100%);
+}
+.pink-purple {
+  background: linear-gradient(123.27deg, #FF00CC 6.81%, #333399 93.19%);
+}
+.blue-blue {
+  background: linear-gradient(119.81deg, #00C6FF 8.16%, #0072FF 92.6%);
+},
+.orange-purple {
+  background: linear-gradient(121.79deg, #FF6A00 8.37%, #EE0979 93.82%);
+}
+.black-blue {
+  background: linear-gradient(360deg, #0F2027 0%, #203A43 51.56%, #2C5364 100%);
+}
+.text-shadow {
+  text-shadow: 0px 1.25px 2.5px rgba(0, 0, 0, 0.75);
+}
+.bg-clip-text {
+  -webkit-background-clip: text;
+}
+.text-fill-transparent{
+  -webkit-text-fill-color: transparent;
+}
+
+
