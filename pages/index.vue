@@ -1,22 +1,24 @@
 <template>
   <div>
-    <vue-particles
-      class="absolute w-full h-full z-minus"
-      color="#8e54e9"
-      :particle-opacity="0.5"
-      :particles-number="60"
-      shape-type="circle"
-      :particle-size="5"
-      lines-color="#4776e6"
-      :lines-width="0.75"
-      :line-linked="true"
-      :line-opacity="0.6"
-      :lines-distance="150"
-      :move-speed="6"
-      :hover-effect="true"
-      hover-mode="repulse"
-      :click-effect="false"
-    ></vue-particles>
+    <no-ssr>
+      <vue-particles
+        class="absolute w-full h-full z-minus"
+        color="#8e54e9"
+        :particle-opacity="0.5"
+        :particles-number="60"
+        shape-type="circle"
+        :particle-size="5"
+        lines-color="#4776e6"
+        :lines-width="0.75"
+        :line-linked="true"
+        :line-opacity="0.6"
+        :lines-distance="150"
+        :move-speed="6"
+        :hover-effect="true"
+        hover-mode="repulse"
+        :click-effect="false"
+      ></vue-particles>
+    </no-ssr>
     <div class="container mx-auto p-4">
       <div>
         <header-bar></header-bar>

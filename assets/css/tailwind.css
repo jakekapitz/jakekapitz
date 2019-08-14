@@ -26,5 +26,6 @@
 .text-fill-transparent{
   -webkit-text-fill-color: transparent;
 }
-
-
+.transition-shadow {
+  transition: box-shadow 0.3s linear;
+}
