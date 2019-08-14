@@ -7,7 +7,8 @@ import {
   faTachometerFastest,
   faBars,
   faAt,
-  faBrowser
+  faBrowser,
+  faTimes
 } from '@fortawesome/pro-light-svg-icons'
 import {
   faFacebook,
@@ -26,7 +27,8 @@ library.add(
   faBrowser,
   faFacebook,
   faLinkedin,
-  faGithub
+  faGithub,
+  faTimes
 )
 
 Vue.component('fa', FontAwesomeIcon)
