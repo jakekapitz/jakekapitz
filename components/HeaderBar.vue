@@ -1,23 +1,25 @@
 <template>
-  <header class="flex flex-row">
+  <header class="flex flex-row items-center">
     <div
-      class="flex items-center w-full p-4 h-32 font-mono shadow-lg hover:shadow-xl rounded-lg bg-white clip text text-6xl text-shadow transition-shadow uppercase"
+      class="flex items-center mx-2 md:mx-4 w-full h-24 md:h-32 shadow-lg hover:shadow-xl rounded-lg bg-white text-shadow transition-shadow uppercase"
     >
-      <h1 class="black-blue bg-clip-text text-fill-transparent">
+      <h1
+        class="black-blue mx-2 md:mx-4 font-mono font-bold tracking-tighter text-5xl md:text-5xl bg-clip-text text-fill-transparent tracking-wide"
+      >
         {{ $store.state.name }}
       </h1>
     </div>
-    <menu-button></menu-button>
+    <header-bar-button></header-bar-button>
   </header>
 </template>
 
 <script>
-import MenuButton from './MenuButton'
+import HeaderBarButton from './HeaderBarButton'
 
 export default {
   name: 'HeaderBar',
   components: {
-    MenuButton
+    HeaderBarButton
   }
 }
 </script>

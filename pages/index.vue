@@ -10,7 +10,7 @@
       <div>
         <header-bar></header-bar>
         <p
-          class="font-mono font-weight-bold text-3xl black-blue bg-clip-text text-fill-transparent text-center leading-relaxed align-middle mt-8 p-4"
+          class="font-mono font-weight-bold text-3xl black-blue bg-clip-text text-fill-transparent text-center leading-normaal align-middle mt-4 lg:mt-8 p-4"
         >
           Hi there. I'm a freelance front-end developer and management
           consultant based in Melbourne, Australia.
@@ -23,12 +23,16 @@
 </template>
 
 <script>
-import HeaderBar from '~/components/HeaderBar.vue'
+import HeaderBar from '~/components/HeaderBar'
 import json from '~/assets/particlesjs-config.json'
 
 export default {
   components: {
     HeaderBar
+  },
+  head: {
+    title:
+      'Jake Kapitz |  Front End Web Developer & Business Optimisation Specialist'
   },
   data() {
     return {
