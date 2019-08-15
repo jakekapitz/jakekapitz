@@ -58,7 +58,15 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    [
+      '@nuxtjs/google-tag-manager',
+      {
+        id: 'GTM-MHLMWZF',
+        pageTracking: true,
+        dev: false
+      }
+    ]
   ],
   /*
    ** Axios module configuration

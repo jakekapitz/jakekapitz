@@ -20,6 +20,7 @@
     "@fortawesome/pro-solid-svg-icons": "^5.10.1",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/google-tag-manager": "^2.2.1",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0"
   },
