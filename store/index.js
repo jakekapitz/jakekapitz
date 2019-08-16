@@ -5,20 +5,20 @@ export const state = () => ({
     {
       ref: 'design',
       name: 'Web Design & Branding',
-      icon: "['fal', 'pencil-brush']",
-      colorClass: '.orange-purple'
+      icon: 'pencil-ruler',
+      colorClass: 'orange-purple'
     },
     {
       ref: 'code',
       title: 'Website Development',
-      icon: "['fal', 'laptop-code']",
-      colorClass: '.blue-blue'
+      icon: 'laptop-code',
+      colorClass: 'blue-blue'
     },
     {
       ref: 'optimise',
       title: 'Business Optimisation',
-      icon: "['fal', 'tachometer-fastest']",
-      colorClass: '.pink-purple'
+      icon: 'tachometer-fastest',
+      colorClass: 'pink-purple'
     }
   ]
 })

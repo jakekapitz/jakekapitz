@@ -4,7 +4,7 @@
       class="flex items-center mx-2 md:mx-4 w-full h-24 md:h-32 shadow-lg hover:shadow-xl rounded-lg bg-white text-shadow transition-shadow uppercase"
     >
       <h1
-        class="black-blue mx-2 md:mx-4 font-mono font-bold tracking-tighter text-5xl md:text-5xl bg-clip-text text-fill-transparent tracking-wide"
+        class="black-blue mx-2 md:mx-4 font-mono font-black tracking-snug text-5xl md:text-6xl bg-clip-text text-fill-transparent"
       >
         {{ $store.state.name }}
       </h1>

@@ -4,15 +4,25 @@
 
 .yellow-green {
   background: linear-gradient(135deg, rgb(253, 252, 71) 0%, rgb(36, 254, 65) 100%);
+  background-size: 200% 200%;
 }
 .pink-purple {
   background: linear-gradient(123.27deg, #FF00CC 6.81%, #333399 93.19%);
+  box-shadow: 0px 5px 10px rgba(149, 27, 178, 0.5);
+  background-size: 200% 200%;
+
 }
 .blue-blue {
   background: linear-gradient(119.81deg, #00C6FF 8.16%, #0072FF 92.6%);
-},
+  box-shadow: 0px 5px 10px rgba(0, 153, 255, 0.5);
+  background-size: 200% 200%;
+
+}
 .orange-purple {
   background: linear-gradient(121.79deg, #FF6A00 8.37%, #EE0979 93.82%);
+  box-shadow: 0px 5px 10px rgba(247, 59, 60, 0.5);
+  background-size: 200% 200%;
+
 }
 .black-blue {
   background: linear-gradient(360deg, #0F2027 0%, #203A43 51.56%, #2C5364 100%);
@@ -27,5 +37,29 @@
   -webkit-text-fill-color: transparent;
 }
 .transition-shadow {
-  transition: box-shadow 0.3s linear;
+  transition: box-shadow 0.3s ease;
+}
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+.animated-rotate-scale {
+  animation: rotate-scale-up-ver 0.5s ease-in-out;
+}
+.animated-gradient-bg {
+  animation: anim-gradient-bg 10s infinite;
+}
+@keyframes anim-gradient-bg {
+  0%   { background-position:   0%   0%; }
+  10%  { background-position:   0%  40%; }
+  20%  { background-position:   0%  80%; }
+  25%  { background-position:   0% 100%; }
+  30%  { background-position:  20% 100%; }
+  40%  { background-position:  60% 100%; }
+  50%  { background-position: 100% 100%; }
+  60%  { background-position: 100%  60%; }
+  70%  { background-position: 100%  20%; }
+  75%  { background-position: 100%   0%; }
+  80%  { background-position:  80%   0%; }
+  90%  { background-position:  40%   0%; }
+  100% { background-position:   0%   0%; }
 }
