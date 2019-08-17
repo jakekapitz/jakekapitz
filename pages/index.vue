@@ -7,17 +7,15 @@
       ></vue-particles>
     </no-ssr>
     <div class="container mx-auto p-4">
-      <div>
-        <header-bar></header-bar>
-        <p
-          class="font-mono font-weight-black text-3xl black-blue bg-clip-text text-fill-transparent text-center sm:leading-tight leading-normal align-middle mt-4 lg:mt-8 p-4"
-        >
-          Hi there. I'm a freelance front-end developer and management
-          consultant based in Melbourne, Australia.
-          <br />
-          <br />Site currently under construction; more information coming soon!
-        </p>
-      </div>
+      <header-bar></header-bar>
+      <p
+        class="font-mono font-weight-black text-3xl black-blue bg-clip-text text-fill-transparent text-center sm:leading-tight leading-normal align-middle mt-4 lg:mt-8 p-4"
+      >
+        Hi there. I'm a freelance front-end developer and management consultant
+        based in Melbourne, Australia.
+        <br />
+        <br />Site currently under construction; more information coming soon!
+      </p>
       <services-bar></services-bar>
     </div>
   </div>
