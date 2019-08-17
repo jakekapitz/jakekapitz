@@ -53,6 +53,9 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss'
   ],
+  purgeCSS: {
+    whitelist: ['blue-blue', 'pink-purple', 'orange-purple']
+  },
   /*
    ** Nuxt.js modules
    */
